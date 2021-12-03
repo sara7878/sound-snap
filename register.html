@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>registration</title>
+    <style>
+        form{
+            width: 500px;
+            height: 550px;
+            margin: 100px 0px 50px 50px;
+            float: left;
+            /* position: relative; */
+        }
+        #email1{
+            /* margin: 130px 80px; */
+            /* position: absolute; */
+            width: 350px;
+            height: 40px;  
+            border: 0.5px rgb(105, 101, 101) solid;
+            /* background-color: rgb(241, 245, 245);    */
+            border-radius: 5px;   
+            font-size: 20px;    
+        }
+        #password1{
+            /* margin: 170px 80px; */
+            /* position: absolute; */
+            width: 350px;
+            height: 40px;  
+            border: 0.5px rgb(105, 101, 101) solid;
+            border-radius: 5px;     
+            font-size: 20px;    
+  
+        }
+        #div{
+            /* margin: 200px 80px; */
+            padding: 20px;
+            /* position: absolute; */
+            width: 300px;
+            height: 30px;  
+            font-size: 20px;
+  
+        }
+        #login{
+            /* margin: 260px 60px; */
+            /* position: absolute; */
+            width: 400px;
+            height: 50px;  
+            font-size: 20px;
+            color: rgb(20, 20, 20);
+            border-radius: 5px;
+            border-color: none;
+        }
+        #create{
+            /* margin: 330px 100px;
+            position: absolute;  */
+            font-size: 20px;
+            color: rgb(105, 101, 101);
+            text-decoration: none;
+        }
+        #label1{
+            /* position: absolute; */
+            font-size: 30px;
+            font-weight: bold;
+            padding: 50px;  
+            color: rgb(119, 112, 112);     }
+        #image{
+            /* position: absolute; */
+            width: 200px;
+            /* margin: 20px 160px; */
+
+        }
+        #register{
+            width: 783px;
+            height: 620px;
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="./thankyou.html" method="post">
+        <img id="image" src="./soundsnap56.png">
+        <br>
+        <label id="label1">create an account for free </label>
+        <br>
+        <br>
+        <input type="email" name="email" id="email1" required placeholder="    enter your email" autofocus>
+   
+        <br>
+        <br>
+        <input type="password" name="pass" id="password1" required placeholder="   password...">
+        <br>
+        <br>
+
+        <input type="password" name="pass" id="password1" required placeholder="   confirm password...">
+        <br>
+        <br>
+        <div id="div">
+            <input type="checkbox" id="robot" name="robot" required>
+            <label for="robot">i agree to the content</label>
+        </div>
+
+        <br>
+        <br>
+        <input type="submit" value="create new account" id="login">
+        <br>
+    </form>
+    <img id="register" src="./register.png">
+</body>
+
+</html>
